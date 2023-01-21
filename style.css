@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'Ubuntu', cursive;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.navbar li :hover {
+    background-color: #989a1b;
+}
+
+.topleft {
+    width: 50%;
+}
+
+.topright {
+    width: 50%;
+}
+
+.section1 {
+    max-height: 100vh;
+    color: #a6a927;
+}
+
+.section1 h1 {
+    color: #4d4710;
+    font-size: 2rem;
+}
+
+.logo {
+    font-size: 1.3rem;
+}
+
+.diamond {
+    width: 350px;
+}
+
+.topright .jewellery {
+    width: 466px;
+}
+
+.section2 {
+    padding: 73px;
+}
+
+.section2 h1 {
+    font-size: 2.3rem;
+    color: #676804;
+}
+
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+    color: #989a1b;
+}
+
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(139, 126, 3);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted {
+    font-size: 1.2rem;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.section3 p {
+    padding: 0 8vw;
+    text-align: center;
+    color: #989a1b;
+}
+
+.section3 h1 {
+    font-size: 2.3rem;
+    color: #676804;
+}
+
+.section3 {
+    padding: 73px;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.buttons :hover {
+    background-color: #989a1b;
+}
+
+.deal {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
